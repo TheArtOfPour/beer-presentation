@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://qyer54soqvdx"
 path.s3tc="res://.godot/imported/Field of wheat by Poly by Google - cNX9BRNG6ep_FieldOfWheat_BaseColor.png-0eac23311feb8f08603415885286442c.s3tc.ctex"
+path.etc2="res://.godot/imported/Field of wheat by Poly by Google - cNX9BRNG6ep_FieldOfWheat_BaseColor.png-0eac23311feb8f08603415885286442c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://models/Field of wheat by Poly by Google - cNX9BRNG6ep_FieldOfWheat_BaseColor.png"
-dest_files=["res://.godot/imported/Field of wheat by Poly by Google - cNX9BRNG6ep_FieldOfWheat_BaseColor.png-0eac23311feb8f08603415885286442c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Field of wheat by Poly by Google - cNX9BRNG6ep_FieldOfWheat_BaseColor.png-0eac23311feb8f08603415885286442c.s3tc.ctex", "res://.godot/imported/Field of wheat by Poly by Google - cNX9BRNG6ep_FieldOfWheat_BaseColor.png-0eac23311feb8f08603415885286442c.etc2.ctex"]
 
 [params]
 

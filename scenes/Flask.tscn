@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://m208oxuarbjw"]
+
+[ext_resource type="PackedScene" uid="uid://bn5gnwsu2og10" path="res://models/Erlenmeyer flask by Poly by Google - advGpqPqy0P.glb" id="1_0pxbw"]
+
+[node name="Flask" type="Node3D" unique_id=667212486]
+
+[node name="Erlenmeyer flask by Poly by Google - advGpqPqy0P" parent="." unique_id=1499691117 instance=ExtResource("1_0pxbw")]
+transform = Transform3D(0.001, 0, 0, 0, 0.001, 0, 0, 0, 0.001, 685.2085, 0, -56.20008)

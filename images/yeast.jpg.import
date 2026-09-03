@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://vtmnewue8acj"
 path.s3tc="res://.godot/imported/yeast.jpg-fff7e8e15d6e4b49ee21e9851f4497b7.s3tc.ctex"
+path.etc2="res://.godot/imported/yeast.jpg-fff7e8e15d6e4b49ee21e9851f4497b7.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://images/yeast.jpg"
-dest_files=["res://.godot/imported/yeast.jpg-fff7e8e15d6e4b49ee21e9851f4497b7.s3tc.ctex"]
+dest_files=["res://.godot/imported/yeast.jpg-fff7e8e15d6e4b49ee21e9851f4497b7.s3tc.ctex", "res://.godot/imported/yeast.jpg-fff7e8e15d6e4b49ee21e9851f4497b7.etc2.ctex"]
 
 [params]
 

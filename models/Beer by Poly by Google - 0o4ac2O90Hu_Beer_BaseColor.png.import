@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2j6ao1noqx1e"
 path.s3tc="res://.godot/imported/Beer by Poly by Google - 0o4ac2O90Hu_Beer_BaseColor.png-bb083ba8ff74e9915ebce06e31cb23b6.s3tc.ctex"
+path.etc2="res://.godot/imported/Beer by Poly by Google - 0o4ac2O90Hu_Beer_BaseColor.png-bb083ba8ff74e9915ebce06e31cb23b6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://models/Beer by Poly by Google - 0o4ac2O90Hu_Beer_BaseColor.png"
-dest_files=["res://.godot/imported/Beer by Poly by Google - 0o4ac2O90Hu_Beer_BaseColor.png-bb083ba8ff74e9915ebce06e31cb23b6.s3tc.ctex"]
+dest_files=["res://.godot/imported/Beer by Poly by Google - 0o4ac2O90Hu_Beer_BaseColor.png-bb083ba8ff74e9915ebce06e31cb23b6.s3tc.ctex", "res://.godot/imported/Beer by Poly by Google - 0o4ac2O90Hu_Beer_BaseColor.png-bb083ba8ff74e9915ebce06e31cb23b6.etc2.ctex"]
 
 [params]
 

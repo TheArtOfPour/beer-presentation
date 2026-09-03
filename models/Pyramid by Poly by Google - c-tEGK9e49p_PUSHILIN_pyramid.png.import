@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://clgki0jsv0sa4"
 path.s3tc="res://.godot/imported/Pyramid by Poly by Google - c-tEGK9e49p_PUSHILIN_pyramid.png-a9fe73dbebe81ed1f7393471011ac102.s3tc.ctex"
+path.etc2="res://.godot/imported/Pyramid by Poly by Google - c-tEGK9e49p_PUSHILIN_pyramid.png-a9fe73dbebe81ed1f7393471011ac102.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://models/Pyramid by Poly by Google - c-tEGK9e49p_PUSHILIN_pyramid.png"
-dest_files=["res://.godot/imported/Pyramid by Poly by Google - c-tEGK9e49p_PUSHILIN_pyramid.png-a9fe73dbebe81ed1f7393471011ac102.s3tc.ctex"]
+dest_files=["res://.godot/imported/Pyramid by Poly by Google - c-tEGK9e49p_PUSHILIN_pyramid.png-a9fe73dbebe81ed1f7393471011ac102.s3tc.ctex", "res://.godot/imported/Pyramid by Poly by Google - c-tEGK9e49p_PUSHILIN_pyramid.png-a9fe73dbebe81ed1f7393471011ac102.etc2.ctex"]
 
 [params]
 

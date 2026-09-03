@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://mugs42b56c26"]
+
+[ext_resource type="PackedScene" uid="uid://cfikj50s22114" path="res://models/Silo by Poly by Google - 4MomdpI0Jx6.glb" id="1_rx051"]
+
+[node name="Silos" type="Node3D" unique_id=794319078]
+
+[node name="Silo by Poly by Google - 4MomdpI0Jx6" parent="." unique_id=1762387243 instance=ExtResource("1_rx051")]
+transform = Transform3D(0.001, 0, 0, 0, 0.001, 0, 0, 0, 0.001, 139.28575, -393.9693, -96.27812)

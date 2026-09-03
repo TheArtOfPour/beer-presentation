@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cgmsf3hhg4b6c"]
 
 [ext_resource type="PackedScene" uid="uid://c7457glvimgsk" path="res://models/Tavern by Don Carson - 2twvfQfSlHB.glb" id="1_f7s0u"]
+[ext_resource type="Script" uid="uid://2w1n5mv7c23l" path="res://scripts/Main.gd" id="1_qtpgv"]
 [ext_resource type="Script" uid="uid://tefu732k30kj" path="res://scripts/CameraWaypoint3D.gd" id="3_dg26j"]
 [ext_resource type="FontFile" uid="uid://fxp712n057jg" path="res://fonts/Uncial_Antiqua/UncialAntiqua-Regular.ttf" id="3_y05kg"]
 [ext_resource type="Script" uid="uid://x63eqenjxmqm" path="res://scripts/CameraRig.gd" id="4_grwn0"]
@@ -9,8 +10,11 @@
 [ext_resource type="Texture2D" uid="uid://vtmnewue8acj" path="res://images/yeast.jpg" id="7_kryuw"]
 [ext_resource type="Texture2D" uid="uid://cbri2j15kj8ys" path="res://images/Beer_Brewing_Beginners_Guide/Slide1.PNG" id="7_quqpj"]
 [ext_resource type="Texture2D" uid="uid://b4jmjiiqu1abs" path="res://images/Beer_Brewing_Beginners_Guide/Slide2.PNG" id="9_2qli3"]
+[ext_resource type="PackedScene" uid="uid://m208oxuarbjw" path="res://scenes/Flask.tscn" id="10_fbhau"]
 [ext_resource type="Texture2D" uid="uid://bwqr3s537ytrt" path="res://images/Beer_Brewing_Beginners_Guide/Slide3.PNG" id="10_qfgbq"]
+[ext_resource type="PackedScene" uid="uid://cvbouugf706j1" path="res://models/Omax compound microscope by 3Donimus - dcuaH6bEkwn.glb" id="11_2er3y"]
 [ext_resource type="PackedScene" uid="uid://b0a8li1b025s8" path="res://models/scroll by Faith Barnett - c3kQWor34kn.glb" id="11_24pxm"]
+[ext_resource type="PackedScene" uid="uid://uyoy7m0qpns7" path="res://models/Keg by Don Carson - uaTAOcUXa4.glb" id="12_hsmq7"]
 [ext_resource type="PackedScene" uid="uid://b7qtabj6oo3ci" path="res://models/Pyramid by Poly by Google - c-tEGK9e49p.glb" id="12_s3q4v"]
 [ext_resource type="PackedScene" uid="uid://bbneuk8kvoclb" path="res://models/Fantasy House by Quaternius - BH2XHWUNmF.glb" id="13_wudsd"]
 [ext_resource type="PackedScene" uid="uid://b2gbyinrvqnfr" path="res://models/German Flag by Götz Minuth - 0BuH1f8ddzK.glb" id="14_pg7js"]
@@ -33,11 +37,14 @@
 [ext_resource type="Texture2D" uid="uid://d2ob3uvgqxfle" path="res://images/IMG_20200202_221236.jpg" id="28_r0741"]
 [ext_resource type="Texture2D" uid="uid://jnorhvfjcges" path="res://images/PXL_20210321_180627187.jpg" id="29_15qfd"]
 [ext_resource type="Texture2D" uid="uid://y82gdces5fjm" path="res://images/PXL_20201222_023626481.jpg" id="30_giga7"]
+[ext_resource type="PackedScene" uid="uid://d4jr0rfrjx5ud" path="res://models/Vine by Poly by Google - eI7GSQpnVUL.glb" id="30_lldrx"]
 [ext_resource type="Texture2D" uid="uid://bs6u3fy5jwa1" path="res://images/PXL_20250413_201315946.jpg" id="32_huoji"]
 [ext_resource type="Texture2D" uid="uid://damlgulvmgxw0" path="res://images/PXL_20210531_203748306.jpg" id="33_062yk"]
 [ext_resource type="Texture2D" uid="uid://dgof0wvwcoyax" path="res://images/IMG_20190804_101226.jpg" id="34_fbhau"]
 [ext_resource type="Texture2D" uid="uid://k7dg15f0fkcq" path="res://images/20131005_094351.jpg" id="36_huoji"]
 [ext_resource type="Texture2D" uid="uid://dv4r54ffqygk0" path="res://images/PXL_20210321_203008456.jpg" id="37_062yk"]
+[ext_resource type="PackedScene" uid="uid://mugs42b56c26" path="res://scenes/Silos.tscn" id="43_awcry"]
+[ext_resource type="PackedScene" uid="uid://baojqvhvgfuur" path="res://models/Beer Flight by Bruno Oliveira - bK5lwl7gvA7.glb" id="43_budy0"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_slwpf"]
 
@@ -58,7 +65,14 @@ glow_bloom = 0.32
 [sub_resource type="BoxShape3D" id="BoxShape3D_2h45r"]
 size = Vector3(2.0005188, 1.0623779, 1.3061523)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tsmfw"]
+albedo_color = Color(0.8783798, 0.68767047, 0.64466053, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_2h45r"]
+material = SubResource("StandardMaterial3D_tsmfw")
+
 [node name="Tavern" type="Node3D" unique_id=769091240]
+script = ExtResource("1_qtpgv")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1901919631]
 light_color = Color(0.4922372, 0.49223727, 0.49223727, 1)
@@ -152,21 +166,26 @@ texture = ExtResource("9_2qli3")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.386894, 1.2859707, -8.765045)
 script = ExtResource("3_dg26j")
 
-[node name="SpotLight3D" type="SpotLight3D" parent="Setting4" unique_id=449075608]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.578249, 7.2399793, -12.407532)
+[node name="Flask" parent="Setting4" unique_id=667212486 instance=ExtResource("10_fbhau")]
+transform = Transform3D(-0.0041964212, -0.0025005948, -0.0010663377, -0.0025594789, 0.0042952383, 1.2595482e-10, 0.0009160347, 0.00054585404, -0.0048849694, 17.979187, 2.0910645, -14.287048)
+
+[node name="Omax compound microscope by 3Donimus - dcuaH6bEkwn" parent="Setting4" unique_id=1047173370 instance=ExtResource("11_2er3y")]
+transform = Transform3D(-0.1638822, 0, -0.47237974, 0, 0.5, 0, 0.47237974, 0, -0.1638822, 8.743591, -1.0583496, -12.883423)
+
+[node name="SpotLight3D5" type="SpotLight3D" parent="Setting4" unique_id=1577123672]
+transform = Transform3D(0.95852023, 0, 0.28502467, 0, 1, 0, -0.28502467, 0, 0.95852023, 9.561434, 0.22569704, -8.653992)
 shadow_enabled = true
 
-[node name="SpotLight3D2" type="SpotLight3D" parent="Setting4" unique_id=994096304]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.687571, 7.2399793, -12.407532)
+[node name="SpotLight3D6" type="SpotLight3D" parent="Setting4" unique_id=1203840096]
+transform = Transform3D(0.95852023, 0, 0.28502467, 0, 1, 0, -0.28502467, 0, 0.95852023, 17.619059, 2.383778, -12.335144)
 shadow_enabled = true
 
-[node name="SpotLight3D3" type="SpotLight3D" parent="Setting4" unique_id=779052672]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.804552, 9.934681, -12.407532)
+[node name="SpotLight3D7" type="SpotLight3D" parent="Setting4" unique_id=1928445963]
+transform = Transform3D(0.95852023, 0, 0.28502467, 0, 1, 0, -0.28502467, 0, 0.95852023, 14.054209, 0.9996228, -8.7057495)
 shadow_enabled = true
 
-[node name="SpotLight3D4" type="SpotLight3D" parent="Setting4" unique_id=380439172]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.821169, 9.11095, -12.407532)
-shadow_enabled = true
+[node name="Root Scene" parent="Setting4" unique_id=596988097 instance=ExtResource("12_hsmq7")]
+transform = Transform3D(-1.159111, 0, 0.31058297, -0.057054088, 1.179579, -0.21292868, -0.30529758, -0.22043999, -1.1393857, 16.824371, -0.77001953, -11.917358)
 
 [node name="Setting5" type="Node3D" parent="." unique_id=1081154323]
 
@@ -192,6 +211,22 @@ transform = Transform3D(-4.8194313, 0, 2.7825005, 0, 5.565, 0, -2.7825005, 0, -4
 
 [node name="Root Scene2" parent="Setting5" unique_id=394879157 instance=ExtResource("15_a3iwh")]
 transform = Transform3D(0.13547528, 0, 0.34967336, 0, 0.375, 0, -0.34967336, 0, 0.13547528, 16.928595, 9.39307, -13.991596)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Setting5" unique_id=449075608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.578249, 7.2399793, -12.407532)
+shadow_enabled = true
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Setting5" unique_id=994096304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.687571, 7.2399793, -12.407532)
+shadow_enabled = true
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="Setting5" unique_id=779052672]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.804552, 9.934681, -12.407532)
+shadow_enabled = true
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="Setting5" unique_id=380439172]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.821169, 9.11095, -12.407532)
+shadow_enabled = true
 
 [node name="Setting6" type="Node3D" parent="." unique_id=91261160]
 
@@ -303,6 +338,24 @@ texture = ExtResource("26_772xh")
 transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 28.077389, 43.156364, -4.8232865)
 shape = SubResource("BoxShape3D_2h45r")
 
+[node name="Vine by Poly by Google - eI7GSQpnVUL" parent="Setting9" unique_id=1557971563 instance=ExtResource("30_lldrx")]
+transform = Transform3D(0.4682169, 0.1754222, -7.667948e-09, 0, -2.1855694e-08, -0.5, -0.1754222, 0.4682169, -2.046641e-08, 30.395205, 44.545242, -11.392191)
+
+[node name="Vine by Poly by Google - eI7GSQpnVUL2" parent="Setting9" unique_id=368894349 instance=ExtResource("30_lldrx")]
+transform = Transform3D(0.461871, -0.19150768, 8.371067e-09, 0, -2.1855694e-08, -0.5, 0.19150768, 0.461871, -2.018902e-08, 22.719984, 44.545242, -12.768431)
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Setting9" unique_id=1157952021]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.019245, 42.558567, -6.4792876)
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Setting9" unique_id=1026573899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.230793, 42.558567, -7.9308257)
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="Setting9" unique_id=1707519121]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.10116, 45.57694, -0.1295371)
+light_color = Color(0.7448761, 0.6584787, 0.3981927, 1)
+light_energy = 6.37
+omni_range = 12.303
+
 [node name="Setting10" type="Node3D" parent="." unique_id=2080292183]
 
 [node name="Sprite3D" type="Sprite3D" parent="Setting10" unique_id=1113736548]
@@ -345,6 +398,14 @@ texture = ExtResource("30_giga7")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Setting10/Area3D3" unique_id=1189906967]
 transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 28.617228, 46.911705, -3.3725119)
 shape = SubResource("BoxShape3D_2h45r")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Setting10" unique_id=648839929]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.965311, 47.951996, -4.364005)
+mesh = SubResource("SphereMesh_2h45r")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Setting10" unique_id=144108471]
+transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 23.405455, 48.182587, -4.0561438)
+mesh = SubResource("SphereMesh_2h45r")
 
 [node name="Setting11" type="Node3D" parent="." unique_id=412147636]
 
@@ -429,17 +490,29 @@ script = ExtResource("4_grwn0")
 camera = NodePath(".")
 waypoints = [NodePath("../../../Setting1/CameraWaypoint3D"), NodePath("../../../Setting2/CameraWaypoint3D2"), NodePath("../../../Setting3/CameraWaypoint3D3"), NodePath("../../../Setting4/CameraWaypoint3D4"), NodePath("../../../Setting5/CameraWaypoint3D5"), NodePath("../../../Setting6/CameraWaypoint3D6"), NodePath("../../../Setting7/CameraWaypoint3D7"), NodePath("../../../Setting8/CameraWaypoint3D8"), NodePath("../../../Setting9/CameraWaypoint3D9"), NodePath("../../../Setting10/CameraWaypoint3D10"), NodePath("../../../Setting11/CameraWaypoint3D11"), NodePath("../../../Setting12/CameraWaypoint3D12"), NodePath("..")]
 
+[node name="Beer Flight by Bruno Oliveira - bK5lwl7gvA7" parent="Setting13" unique_id=642215175 instance=ExtResource("43_budy0")]
+transform = Transform3D(-2.1855695e-07, 0, 5, 0, 5, 0, -5, 0, -2.1855695e-07, -50.67079, 15.425064, 2.7901)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Setting13" unique_id=1733983490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.558548, 16.120972, 2.8368435)
+light_color = Color(0.81465447, 0.70708716, 0.4636029, 1)
+light_energy = 0.423
+shadow_enabled = true
+
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1512148197]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.589417, -1.4501038, 10.254219)
-light_energy = 1.08
-omni_range = 17.343
+light_energy = 7.768
+omni_range = 26.627
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=688108245]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.916046, 12.358765, 11.10041)
-light_energy = 1.08
+light_energy = 3.414
 omni_range = 17.343
 
 [node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=1941126227]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.919128, 4.4340515, 4.098213)
 light_energy = 1.08
 omni_range = 17.343
+
+[node name="Silos" parent="." unique_id=794319078 instance=ExtResource("43_awcry")]
+transform = Transform3D(-0.018538501, 2.0297923e-09, 0.046436235, 0.046436235, 8.1034374e-10, 0.018538501, 3.079772e-18, 0.05, -2.1855697e-09, 13.2943535, 52.06024, -10.421463)

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcnnrdvruloo"
 path.s3tc="res://.godot/imported/Slide9.PNG-6e7b43b4692ab2012587341e1ae7f884.s3tc.ctex"
+path.etc2="res://.godot/imported/Slide9.PNG-6e7b43b4692ab2012587341e1ae7f884.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://images/Beer_Brewing_Beginners_Guide/Slide9.PNG"
-dest_files=["res://.godot/imported/Slide9.PNG-6e7b43b4692ab2012587341e1ae7f884.s3tc.ctex"]
+dest_files=["res://.godot/imported/Slide9.PNG-6e7b43b4692ab2012587341e1ae7f884.s3tc.ctex", "res://.godot/imported/Slide9.PNG-6e7b43b4692ab2012587341e1ae7f884.etc2.ctex"]
 
 [params]
 
