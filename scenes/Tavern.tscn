@@ -1,0 +1,445 @@
+[gd_scene format=3 uid="uid://cgmsf3hhg4b6c"]
+
+[ext_resource type="PackedScene" uid="uid://c7457glvimgsk" path="res://models/Tavern by Don Carson - 2twvfQfSlHB.glb" id="1_f7s0u"]
+[ext_resource type="Script" uid="uid://tefu732k30kj" path="res://scripts/CameraWaypoint3D.gd" id="3_dg26j"]
+[ext_resource type="FontFile" uid="uid://fxp712n057jg" path="res://fonts/Uncial_Antiqua/UncialAntiqua-Regular.ttf" id="3_y05kg"]
+[ext_resource type="Script" uid="uid://x63eqenjxmqm" path="res://scripts/CameraRig.gd" id="4_grwn0"]
+[ext_resource type="PackedScene" uid="uid://b6m3iaephxych" path="res://models/Beer by Poly by Google - 0o4ac2O90Hu.glb" id="5_2hclo"]
+[ext_resource type="PackedScene" uid="uid://cavuoce8snff4" path="res://models/Glass of beer by Poly by Google - fxdbI0U4gLt.glb" id="6_kryuw"]
+[ext_resource type="Texture2D" uid="uid://vtmnewue8acj" path="res://images/yeast.jpg" id="7_kryuw"]
+[ext_resource type="Texture2D" uid="uid://cbri2j15kj8ys" path="res://images/Beer_Brewing_Beginners_Guide/Slide1.PNG" id="7_quqpj"]
+[ext_resource type="Texture2D" uid="uid://b4jmjiiqu1abs" path="res://images/Beer_Brewing_Beginners_Guide/Slide2.PNG" id="9_2qli3"]
+[ext_resource type="Texture2D" uid="uid://bwqr3s537ytrt" path="res://images/Beer_Brewing_Beginners_Guide/Slide3.PNG" id="10_qfgbq"]
+[ext_resource type="PackedScene" uid="uid://b0a8li1b025s8" path="res://models/scroll by Faith Barnett - c3kQWor34kn.glb" id="11_24pxm"]
+[ext_resource type="PackedScene" uid="uid://b7qtabj6oo3ci" path="res://models/Pyramid by Poly by Google - c-tEGK9e49p.glb" id="12_s3q4v"]
+[ext_resource type="PackedScene" uid="uid://bbneuk8kvoclb" path="res://models/Fantasy House by Quaternius - BH2XHWUNmF.glb" id="13_wudsd"]
+[ext_resource type="PackedScene" uid="uid://b2gbyinrvqnfr" path="res://models/German Flag by Götz Minuth - 0BuH1f8ddzK.glb" id="14_pg7js"]
+[ext_resource type="PackedScene" uid="uid://bys65chr88liw" path="res://models/Sail Ship by Quaternius - cIzO4MBPqI.glb" id="15_a3iwh"]
+[ext_resource type="Texture2D" uid="uid://6abvtthhw57k" path="res://images/Beer_Brewing_Beginners_Guide/Slide4.PNG" id="15_s3q4v"]
+[ext_resource type="Texture2D" uid="uid://cwdp771b81v8v" path="res://images/Beer_Brewing_Beginners_Guide/Slide5.PNG" id="17_a3iwh"]
+[ext_resource type="Script" uid="uid://h2i1gqu347ga" path="res://scripts/Scalable.gd" id="17_gw0m0"]
+[ext_resource type="Texture2D" uid="uid://bab1p5m034xdy" path="res://images/IMG_20200729_121738.jpg" id="18_5atkh"]
+[ext_resource type="Texture2D" uid="uid://vxbgip8bnv3o" path="res://images/Beer_Brewing_Beginners_Guide/Slide6.PNG" id="18_d6xfb"]
+[ext_resource type="Texture2D" uid="uid://cdwvjsb4y7poh" path="res://images/IMG_20190721_081617.jpg" id="19_dbfau"]
+[ext_resource type="Texture2D" uid="uid://ddxaubgtf0ejs" path="res://images/Beer_Brewing_Beginners_Guide/Slide7.PNG" id="19_gk6xu"]
+[ext_resource type="PackedScene" uid="uid://dnd7i0bmqdwvu" path="res://models/Field of wheat by Poly by Google - cNX9BRNG6ep.glb" id="19_njwkm"]
+[ext_resource type="Texture2D" uid="uid://d2bxqqv2fr0v3" path="res://images/Beer_Brewing_Beginners_Guide/Slide8.PNG" id="20_d6xfb"]
+[ext_resource type="Texture2D" uid="uid://d32wahg8r0rmi" path="res://images/IMG_20180526_111952.jpg" id="20_h7o2q"]
+[ext_resource type="Texture2D" uid="uid://dcnnrdvruloo" path="res://images/Beer_Brewing_Beginners_Guide/Slide9.PNG" id="21_gk6xu"]
+[ext_resource type="Texture2D" uid="uid://qsohwnkm0llc" path="res://images/Beer_Brewing_Beginners_Guide/Slide11.PNG" id="22_ix5rr"]
+[ext_resource type="Texture2D" uid="uid://b01jpi3w2ikpm" path="res://images/Beer_Brewing_Beginners_Guide/Slide12.PNG" id="23_1o1jc"]
+[ext_resource type="Texture2D" uid="uid://cu8tanetfkyqn" path="res://images/IMG_20200902_143010.jpg" id="25_h7o2q"]
+[ext_resource type="Texture2D" uid="uid://bxtg83vepqdpy" path="res://images/IMG_20200104_134408.jpg" id="26_772xh"]
+[ext_resource type="Texture2D" uid="uid://d2ob3uvgqxfle" path="res://images/IMG_20200202_221236.jpg" id="28_r0741"]
+[ext_resource type="Texture2D" uid="uid://jnorhvfjcges" path="res://images/PXL_20210321_180627187.jpg" id="29_15qfd"]
+[ext_resource type="Texture2D" uid="uid://y82gdces5fjm" path="res://images/PXL_20201222_023626481.jpg" id="30_giga7"]
+[ext_resource type="Texture2D" uid="uid://bs6u3fy5jwa1" path="res://images/PXL_20250413_201315946.jpg" id="32_huoji"]
+[ext_resource type="Texture2D" uid="uid://damlgulvmgxw0" path="res://images/PXL_20210531_203748306.jpg" id="33_062yk"]
+[ext_resource type="Texture2D" uid="uid://dgof0wvwcoyax" path="res://images/IMG_20190804_101226.jpg" id="34_fbhau"]
+[ext_resource type="Texture2D" uid="uid://k7dg15f0fkcq" path="res://images/20131005_094351.jpg" id="36_huoji"]
+[ext_resource type="Texture2D" uid="uid://dv4r54ffqygk0" path="res://images/PXL_20210321_203008456.jpg" id="37_062yk"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_slwpf"]
+
+[sub_resource type="Sky" id="Sky_tsmfw"]
+sky_material = SubResource("ProceduralSkyMaterial_slwpf")
+
+[sub_resource type="Environment" id="Environment_2h45r"]
+background_mode = 2
+background_energy_multiplier = 0.8
+sky = SubResource("Sky_tsmfw")
+tonemap_mode = 2
+ssr_enabled = true
+glow_enabled = true
+glow_bloom = 0.32
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_2h45r"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2h45r"]
+size = Vector3(2.0005188, 1.0623779, 1.3061523)
+
+[node name="Tavern" type="Node3D" unique_id=769091240]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1901919631]
+light_color = Color(0.4922372, 0.49223727, 0.49223727, 1)
+light_energy = 0.1
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1980498965]
+environment = SubResource("Environment_2h45r")
+
+[node name="Area3D" type="Area3D" parent="." unique_id=2065969723]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=282296855]
+shape = SubResource("WorldBoundaryShape3D_2h45r")
+
+[node name="Waypoints" type="Node3D" parent="." unique_id=292393026]
+
+[node name="Beer by Poly by Google - 0o4ac2O90Hu" parent="." unique_id=989823896 instance=ExtResource("5_2hclo")]
+transform = Transform3D(-13.488171, 6.526911, -7.1897917, 6.786981, 15.137456, 1.0093291, 6.9448233, -2.1169062, -14.9503355, 10.072229, -7.0589085, 13.350496)
+
+[node name="Glass of beer by Poly by Google - fxdbI0U4gLt" parent="." unique_id=1634406862 instance=ExtResource("6_kryuw")]
+transform = Transform3D(1.8657717, -1.7334621, 3.788567, -0.7290984, 3.951204, 2.16694, -4.102017, -1.4907447, 1.3380458, -22.568558, -0.45549488, 18.56131)
+
+[node name="Setting1" type="Node3D" parent="." unique_id=1426284185]
+transform = Transform3D(0.49999997, 0, 0.86602545, 0, 1, 0, -0.86602545, 0, 0.49999997, 9.677541, 0, -14.921846)
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting1" unique_id=1069376670]
+transform = Transform3D(-0.75, 0, 1.13246855e-07, 0, 0.75, 0, -1.13246855e-07, 0, -0.75, 0.11424923, 1.5508385, 21.000105)
+texture = ExtResource("7_kryuw")
+
+[node name="Label3D" type="Label3D" parent="Setting1" unique_id=635432461]
+transform = Transform3D(-1, 0, 1.1920929e-07, 0, 1, 0, -1.1920929e-07, 0, -1, 0, 1.4379034, 16.038033)
+shaded = true
+modulate = Color(0.63529414, 0.63529414, 0.22352941, 1)
+outline_modulate = Color(0, 0, 0, 0)
+text = "BEER"
+font = ExtResource("3_y05kg")
+font_size = 400
+
+[node name="CameraWaypoint3D" type="Marker3D" parent="Setting1" unique_id=639907136]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.2859707, 11.15729)
+script = ExtResource("3_dg26j")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Setting1" unique_id=868422348]
+transform = Transform3D(-1, 0, -8.940697e-08, 0, 1, 0, 8.940697e-08, 0, -1, 0.19445705, 1.5798206, 12.195115)
+light_energy = 16.0
+shadow_enabled = true
+
+[node name="Setting2" type="Node3D" parent="." unique_id=1815008818]
+
+[node name="CameraWaypoint3D2" type="Marker3D" parent="Setting2" unique_id=744810201]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0.6082649, -2.692562)
+script = ExtResource("3_dg26j")
+
+[node name="Tavern by Don Carson - 2twvfQfSlHB" parent="Setting2" unique_id=1717340066 instance=ExtResource("1_f7s0u")]
+
+[node name="Label3D2" type="Label3D" parent="Setting2" unique_id=735440566]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.0047426224, 0.29947814, 0.0013828278)
+shaded = true
+text = "Justin
+Revelstoke"
+font = ExtResource("3_y05kg")
+font_size = 43
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Setting2" unique_id=1023108660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5402183, 0.82192004, -0.8448104)
+light_color = Color(0.8607766, 0.6541475, 0.12458081, 1)
+shadow_enabled = true
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Setting2" unique_id=1456932086]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5402183, 0.82192004, -0.6899485)
+light_color = Color(0.8607766, 0.6541475, 0.12458081, 1)
+shadow_enabled = true
+
+[node name="Setting3" type="Node3D" parent="." unique_id=965460937]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting3" unique_id=601167730]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1935849, -14.946485)
+texture = ExtResource("7_quqpj")
+
+[node name="CameraWaypoint3D3" type="Marker3D" parent="Setting3" unique_id=1801291277]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2859707, -8.765045)
+script = ExtResource("3_dg26j")
+
+[node name="Setting4" type="Node3D" parent="." unique_id=1242316685]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting4" unique_id=373177779]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.386894, 1.1935849, -14.946485)
+texture = ExtResource("9_2qli3")
+
+[node name="CameraWaypoint3D4" type="Marker3D" parent="Setting4" unique_id=1955207169]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.386894, 1.2859707, -8.765045)
+script = ExtResource("3_dg26j")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Setting4" unique_id=449075608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.578249, 7.2399793, -12.407532)
+shadow_enabled = true
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Setting4" unique_id=994096304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.687571, 7.2399793, -12.407532)
+shadow_enabled = true
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="Setting4" unique_id=779052672]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.804552, 9.934681, -12.407532)
+shadow_enabled = true
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="Setting4" unique_id=380439172]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.821169, 9.11095, -12.407532)
+shadow_enabled = true
+
+[node name="Setting5" type="Node3D" parent="." unique_id=1081154323]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting5" unique_id=1230543122]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.386894, 8.920942, -14.946485)
+texture = ExtResource("10_qfgbq")
+
+[node name="CameraWaypoint3D5" type="Marker3D" parent="Setting5" unique_id=363742390]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.386894, 9.013328, -8.765045)
+script = ExtResource("3_dg26j")
+
+[node name="scroll by Faith Barnett - c3kQWor34kn" parent="Setting5" unique_id=316182469 instance=ExtResource("11_24pxm")]
+transform = Transform3D(2.545, 0, 0, 0, 2.545, 0, 0, 0, 2.545, 9.038655, 7.349242, -14.400208)
+
+[node name="Pyramid by Poly by Google - c-tEGK9e49p" parent="Setting5" unique_id=1333509521 instance=ExtResource("12_s3q4v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.758704, 9.231263, -13.462439)
+
+[node name="Root Scene" parent="Setting5" unique_id=1903863674 instance=ExtResource("13_wudsd")]
+transform = Transform3D(0.63, 0, 0, 0, 0.63, 0, 0, 0, 0.63, 14.583537, 5.7716765, -14.954668)
+
+[node name="German Flag by Götz Minuth - 0BuH1f8ddzK" parent="Setting5/Root Scene" unique_id=2096650070 instance=ExtResource("14_pg7js")]
+transform = Transform3D(-4.8194313, 0, 2.7825005, 0, 5.565, 0, -2.7825005, 0, -4.8194313, 1.4719353, 0.7901144, 0.28803825)
+
+[node name="Root Scene2" parent="Setting5" unique_id=394879157 instance=ExtResource("15_a3iwh")]
+transform = Transform3D(0.13547528, 0, 0.34967336, 0, 0.375, 0, -0.34967336, 0, 0.13547528, 16.928595, 9.39307, -13.991596)
+
+[node name="Setting6" type="Node3D" parent="." unique_id=91261160]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting6" unique_id=571651673]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 13.34716, 40.981915, -11.901957)
+texture = ExtResource("15_s3q4v")
+
+[node name="CameraWaypoint3D6" type="Marker3D" parent="Setting6" unique_id=1789070934]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 13.34716, 34.800476, -11.809572)
+script = ExtResource("3_dg26j")
+
+[node name="German Flag by Götz Minuth - 0BuH1f8ddzK" parent="Setting6" unique_id=380579617 instance=ExtResource("14_pg7js")]
+transform = Transform3D(-2.2530212, 0.60369503, 4.040008, 3.179858, -2.6369016, 2.1673648, 2.5641017, 3.8005946, 0.8620216, 16.83542, 39.23213, -11.242362)
+
+[node name="Setting7" type="Node3D" parent="." unique_id=2138319986]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting7" unique_id=1320983401]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.020086288, 40.981915, -11.901957)
+texture = ExtResource("17_a3iwh")
+
+[node name="CameraWaypoint3D7" type="Marker3D" parent="Setting7" unique_id=1302865711]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.020086288, 34.800476, -11.809572)
+script = ExtResource("3_dg26j")
+
+[node name="Setting8" type="Node3D" parent="." unique_id=416487327]
+
+[node name="Area3D" type="Area3D" parent="Setting8" unique_id=1317459817]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting8/Area3D" unique_id=1260035287]
+transform = Transform3D(0.05723377, -7.871634e-10, -0.018008197, -0.017886357, -0.006967744, -0.056846537, -0.0020912746, 0.059594046, -0.006646505, 27.712534, 39.88644, -9.922545)
+texture = ExtResource("18_5atkh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting8/Area3D" unique_id=1435011581]
+transform = Transform3D(0.9538962, 0.30013663, 0, -0.29810596, 0.9474423, -0.11612903, -0.034854576, 0.110775046, 0.99323416, 27.635023, 39.667385, -9.949337)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Area3D2" type="Area3D" parent="Setting8" unique_id=2103007652]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting8/Area3D2" unique_id=1420680269]
+transform = Transform3D(0.05923375, -4.178084e-10, -0.0095583415, -0.0095583415, -2.5891898e-09, -0.05923375, -1.3287487e-17, 0.06, -2.6226834e-09, 29.616127, 38.444675, -12.024483)
+texture = ExtResource("19_dbfau")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting8/Area3D2" unique_id=1139962758]
+transform = Transform3D(0.9872294, 0.15930572, 0, -0.15930572, 0.9872294, 0, 0, 0, 1, 29.571283, 38.215107, -12.025655)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Area3D3" type="Area3D" parent="Setting8" unique_id=1692619278]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting8/Area3D3" unique_id=1284251698]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 29.757654, 38.679096, -14.190624)
+texture = ExtResource("20_h7o2q")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting8/Area3D3" unique_id=320314012]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 29.641155, 38.48069, -14.148474)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting8" unique_id=125580003]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.637634, 40.981915, -11.901957)
+texture = ExtResource("18_d6xfb")
+
+[node name="CameraWaypoint3D8" type="Marker3D" parent="Setting8" unique_id=997834184]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.637634, 34.800476, -11.809572)
+script = ExtResource("3_dg26j")
+
+[node name="Field of wheat by Poly by Google - cNX9BRNG6ep" parent="Setting8" unique_id=2024298234 instance=ExtResource("19_njwkm")]
+transform = Transform3D(0.27, 0, 0, 0, -1.1802075e-08, -0.27, 0, 0.27, -1.1802075e-08, 22.943844, 39.22857, -17.276922)
+
+[node name="Field of wheat by Poly by Google - cNX9BRNG6ep2" parent="Setting8" unique_id=1198258133 instance=ExtResource("19_njwkm")]
+transform = Transform3D(0.27, 0, 0, 0, -1.1802075e-08, -0.27, 0, 0.27, -1.1802075e-08, 26.390339, 39.22857, -17.276922)
+
+[node name="Field of wheat by Poly by Google - cNX9BRNG6ep3" parent="Setting8" unique_id=668564261 instance=ExtResource("19_njwkm")]
+transform = Transform3D(0.27, 0, 0, 0, -1.1802075e-08, -0.27, 0, 0.27, -1.1802075e-08, 30.092445, 39.22857, -17.276922)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Setting8" unique_id=1699634596]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.313118, 38.241306, -13.83261)
+
+[node name="Setting9" type="Node3D" parent="." unique_id=23912852]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting9" unique_id=1713486801]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.640072, 45.179474, -7.168734)
+texture = ExtResource("19_gk6xu")
+
+[node name="CameraWaypoint3D9" type="Marker3D" parent="Setting9" unique_id=116555212]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.640072, 38.998035, -7.0763497)
+script = ExtResource("3_dg26j")
+
+[node name="Area3D" type="Area3D" parent="Setting9" unique_id=1881748040]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting9/Area3D" unique_id=191880018]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 29.307379, 43.35477, -6.7601027)
+texture = ExtResource("25_h7o2q")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting9/Area3D" unique_id=1313447312]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 29.19088, 43.156364, -6.7179523)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Area3D2" type="Area3D" parent="Setting9" unique_id=369473266]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting9/Area3D2" unique_id=1452901071]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 28.193888, 43.35477, -4.865437)
+texture = ExtResource("26_772xh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting9/Area3D2" unique_id=1797103535]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 28.077389, 43.156364, -4.8232865)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Setting10" type="Node3D" parent="." unique_id=2080292183]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting10" unique_id=1113736548]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.640072, 49.61033, -2.5677543)
+texture = ExtResource("20_d6xfb")
+
+[node name="CameraWaypoint3D10" type="Marker3D" parent="Setting10" unique_id=2061085291]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.640072, 43.42889, -2.47537)
+script = ExtResource("3_dg26j")
+
+[node name="Area3D" type="Area3D" parent="Setting10" unique_id=606694169]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting10/Area3D" unique_id=740540932]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 29.833574, 47.11011, -1.4482536)
+texture = ExtResource("28_r0741")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting10/Area3D" unique_id=643744050]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 29.717075, 46.911705, -1.4061031)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Area3D2" type="Area3D" parent="Setting10" unique_id=52422056]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting10/Area3D2" unique_id=363695037]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 27.836248, 47.11011, -0.85299456)
+texture = ExtResource("29_15qfd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting10/Area3D2" unique_id=1818055522]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 27.71975, 46.911705, -0.81084406)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Area3D3" type="Area3D" parent="Setting10" unique_id=942530765]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting10/Area3D3" unique_id=1172803486]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 28.733727, 47.11011, -3.4146624)
+texture = ExtResource("30_giga7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting10/Area3D3" unique_id=1189906967]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 28.617228, 46.911705, -3.3725119)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Setting11" type="Node3D" parent="." unique_id=412147636]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting11" unique_id=2052599687]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.640072, 54.169426, 2.6373706)
+texture = ExtResource("21_gk6xu")
+
+[node name="CameraWaypoint3D11" type="Marker3D" parent="Setting11" unique_id=1764079639]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 26.640072, 47.987988, 2.729755)
+script = ExtResource("3_dg26j")
+
+[node name="Area3D" type="Area3D" parent="Setting11" unique_id=1515153118]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting11/Area3D" unique_id=1496705198]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 27.087044, 51.680134, 4.597562)
+texture = ExtResource("32_huoji")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting11/Area3D" unique_id=2016979685]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 26.970545, 51.481728, 4.6397123)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Area3D2" type="Area3D" parent="Setting11" unique_id=1096090637]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting11/Area3D2" unique_id=1549762871]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 29.651978, 51.680134, 3.3772829)
+texture = ExtResource("33_062yk")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting11/Area3D2" unique_id=2121327506]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 29.535479, 51.481728, 3.4194334)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Area3D3" type="Area3D" parent="Setting11" unique_id=2051483684]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting11/Area3D3" unique_id=1841856230]
+transform = Transform3D(0.05298432, -1.2306612e-09, -0.028154243, -0.02750537, 0.01280733, -0.051763188, 0.0060096793, 0.05861717, 0.011309793, 28.33519, 51.680134, 1.2646866)
+texture = ExtResource("34_fbhau")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting11/Area3D3" unique_id=1330658535]
+transform = Transform3D(0.8830721, 0.46923742, 0, -0.4584228, 0.8627197, 0.21345551, 0.100161314, -0.1884966, 0.9769528, 28.21869, 51.481728, 1.3068371)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Setting12" type="Node3D" parent="." unique_id=1575453868]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting12" unique_id=145585508]
+transform = Transform3D(-4.371139e-08, -8.742278e-08, -1, 0, -1, 8.742278e-08, -1, 3.821371e-15, 4.371139e-08, 41.411255, 39.23971, 11.904484)
+texture = ExtResource("22_ix5rr")
+
+[node name="CameraWaypoint3D12" type="Marker3D" parent="Setting12" unique_id=403812743]
+transform = Transform3D(-4.371139e-08, -8.742278e-08, -1, 0, -1, 8.742278e-08, -1, 3.821371e-15, 4.371139e-08, 35.229813, 39.147327, 11.904484)
+script = ExtResource("3_dg26j")
+
+[node name="Area3D" type="Area3D" parent="Setting12" unique_id=39783771]
+script = ExtResource("17_gw0m0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting12/Area3D" unique_id=778144144]
+transform = Transform3D(-1.9629454e-08, -1.9704091e-15, -0.26, 3.9258907e-08, -0.26, -9.935562e-16, -0.26, -3.9258907e-08, 1.9629454e-08, 38.57565, 39.322388, 8.554937)
+texture = ExtResource("36_huoji")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Setting12/Area3D" unique_id=177561309]
+transform = Transform3D(-1.9629454e-08, -1.9704087e-15, -0.26, 3.9258907e-08, -0.26, -9.935564e-16, -0.26, -3.9258907e-08, 1.9629454e-08, 38.533497, 39.327145, 8.543674)
+shape = SubResource("BoxShape3D_2h45r")
+
+[node name="Setting13" type="Node3D" parent="." unique_id=1187408476]
+
+[node name="Sprite3D" type="Sprite3D" parent="Setting13" unique_id=1167311476]
+transform = Transform3D(0.7581601, -1.232861e-07, -0.6520685, 8.742278e-08, 1, -8.742279e-08, 0.6520685, 9.274835e-09, 0.7581601, -48.167446, 17.533268, -5.584112)
+texture = ExtResource("23_1o1jc")
+
+[node name="Sprite3D2" type="Sprite3D" parent="Setting13" unique_id=1078750481]
+transform = Transform3D(-6.3381513e-09, 0, -0.145, 0, 0.145, 0, 0.145, 0, -6.3381513e-09, -43.13168, 19.471928, 7.820284)
+texture = ExtResource("37_062yk")
+
+[node name="CameraWaypoint3D13" type="Marker3D" parent="Setting13" unique_id=1363602231]
+transform = Transform3D(0.49999994, -1.1942174e-07, -0.86602545, 8.742278e-08, 1, -8.742279e-08, 0.86602545, -3.1998955e-08, 0.49999994, -55.443855, 17.625654, 5.7104406)
+script = ExtResource("3_dg26j")
+
+[node name="Camera3D" type="Camera3D" parent="Setting13/CameraWaypoint3D13" unique_id=1493397273 node_paths=PackedStringArray("camera", "waypoints")]
+script = ExtResource("4_grwn0")
+camera = NodePath(".")
+waypoints = [NodePath("../../../Setting1/CameraWaypoint3D"), NodePath("../../../Setting2/CameraWaypoint3D2"), NodePath("../../../Setting3/CameraWaypoint3D3"), NodePath("../../../Setting4/CameraWaypoint3D4"), NodePath("../../../Setting5/CameraWaypoint3D5"), NodePath("../../../Setting6/CameraWaypoint3D6"), NodePath("../../../Setting7/CameraWaypoint3D7"), NodePath("../../../Setting8/CameraWaypoint3D8"), NodePath("../../../Setting9/CameraWaypoint3D9"), NodePath("../../../Setting10/CameraWaypoint3D10"), NodePath("../../../Setting11/CameraWaypoint3D11"), NodePath("../../../Setting12/CameraWaypoint3D12"), NodePath("..")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1512148197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.589417, -1.4501038, 10.254219)
+light_energy = 1.08
+omni_range = 17.343
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=688108245]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.916046, 12.358765, 11.10041)
+light_energy = 1.08
+omni_range = 17.343
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=1941126227]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.919128, 4.4340515, 4.098213)
+light_energy = 1.08
+omni_range = 17.343
